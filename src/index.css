@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --richred-900: #A62B00;
+  --gray-5: #EBEBEB;
+}
+.footer_main{
+  background-image: url('./assets/fright.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.footer_double_main{
+  padding: 40px 40px;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer_logo p{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 15px;
+  opacity: .9;
+  font-family: "Roboto", serif !important;
+  width: 21em;
+  max-width: 100%;
+  margin-top: 20px;
+  line-height: 24px;
+}
+.second_footer h3{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Roboto", serif !important;
+}
+.second_footer p{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: .95;
+  line-height: 24px;
+  padding: 8px 0px;
+}
+.third_footer h3{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Roboto", serif !important;
+}
+.side_flex{
+  display: flex;
+  /* align-items: flex-start; */
+  /* align-items: center; */
+  gap: 15px;
+  margin: 25px 0px;
+}
+.contact_side{
+  margin-top: 20px;
+}
+.side_flex p{
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", serif !important;
+}
+.fourth_footer h3{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Roboto", serif !important;
+  margin-left: 15px;
+}
+.fourth_footer p{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Roboto", serif !important;
+  width: 21em;
+  max-width: 100%;
+  line-height: 24px;
+  margin-top: 25px;
+}
+.msitig{
+  margin-top: 20px;
+}
+.enter_test{
+  display: flex;
+  position: relative;
+  margin-top: 25px;
+}
+.enter_test input{
+  width: 100%;
+  height: 53px;
+  border: 1px solid #EDEDED;
+  background: transparent;
+  padding: 0px 15px;
+  font-family: "Wix Madefor Display", serif !important;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.enter_test button{
+  background-color: #88AE5A;
+  width: 51px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: absolute;
+  right: 0px;
+}
+.enter_test input::placeholder{
+  font-family: "Wix Madefor Display", serif !important;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+/* =======================client app====================== */
+
+.our_client{
+  background-color: #F4F4F9;
+}
+.our_client_heading p{
+   text-align: center;
+}
+.our_brand_flex img{
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+.newsingk{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.our_brand_flex{
+  margin-top: 50px;
+}
+.client_main{
+    max-width: 1440px;
+    display: block;
+    margin: auto;
+    padding: 70px 40px;
+}
+.nameLine{
+  margin-left: 150px;
+}
+.our_client_heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}

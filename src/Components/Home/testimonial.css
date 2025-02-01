@@ -1,0 +1,112 @@
+.testit_wrap{
+    width: 100%;
+    position: relative;
+}
+
+.testi_cont{
+     max-width: 1440px;
+     width: 100%;
+     padding: 40px 40px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.testi_right{
+max-width: 420px;
+width: 100%;
+}
+
+.test_left{
+    max-width: 794px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.testi_tag{
+    font-family: Roboto;
+font-size: 28px;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: 0.13em;
+text-align: left;
+color: #101729;
+}
+
+.head_test{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.head_test h4{
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 600;
+line-height: 41px;
+text-align: left;
+color: #88AE5A;
+}
+
+.head_test p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 400;
+line-height: 42px;
+text-align: left;
+ color: #666666;
+}
+
+.linett{
+    width: 63px;
+height: 0px;
+border: 2px solid #C7DA66;
+}
+
+.head_parastest{
+    font-family: Roboto;
+font-size: 22px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.04em;
+text-align: left;
+color: #666666;
+}
+
+.testi_users{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.testi_grp{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.testi_grp h2{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+color: #88AE5A;    
+}
+
+.testi_grp p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+color: #666666;    
+}

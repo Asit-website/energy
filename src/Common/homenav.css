@@ -1,0 +1,55 @@
+.hoemnavbarwap{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+      
+}
+
+.hoemnavbarwap nav{
+     max-width: 1250px;
+     width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 46px 0px 0px 40px;
+
+}
+
+.ho_nav_items{
+    display: flex;
+    align-items: center;
+    max-width: 740px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav_logos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.homeheroimg{
+    width: 100%;
+
+}
+
+.homeshade{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+}
+
+.ho_nav_items a{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.75px;
+text-align: center;
+color: #FFFFFF;
+}

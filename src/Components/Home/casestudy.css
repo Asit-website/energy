@@ -1,0 +1,126 @@
+.casesutdywrap{
+    width: 100%;
+    position: relative;
+    height: 648px;
+
+}
+
+.caseimg{
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+}
+
+.casestudy_cont{
+max-width: 1520px;
+width: 100%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin: 0 auto;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+}
+
+.cs_iner{
+    max-width: 638px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 0px 50px;
+}
+.cas_head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cas_head h3{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 41px;
+    text-align: left;
+color: #FFFFFF;    
+}
+
+.cas_head p{
+    border: 2px solid #C7DA66;
+    width: 131.09px;
+
+}
+
+.case_study_back{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.casesyudy{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px #DBD5D540;
+border-radius: 15px;
+padding: 25px;
+}
+
+.casdthe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.casdthe h4{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0.08em;
+    text-align: left;
+color: #88AE5A;    
+}
+
+.casdthe span{
+color: #88AE5A;
+font-size: 24px;
+}
+
+.casesyudy p{
+    font-family: Wix Madefor Display;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+color: #666666;
+}
+
+.casesyudy {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  
+  
+  .case_content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, padding 0.3s;
+    padding: 0 15px;
+  }
+  
+  .case_content.open {
+    max-height: 200px; 
+    padding: 10px 15px;
+  }
+  

@@ -1,0 +1,94 @@
+.wefolow_wrpa{
+     width: 100%;
+     position: relative;
+     background: #FAFAFA;
+
+}
+
+.weffolo_cont{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 40px 40px 20px;
+}
+
+.wefolow_top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.folow_left{
+     max-width: 236px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+.folspara{
+    font-family: Roboto;
+font-size: 28px;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: 0.13em;
+text-align: left;
+color: #101729;
+}
+
+.folow_left h4{
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 600;
+line-height: 41px;
+text-align: left;
+color: #88AE5A;
+}
+
+.linesfo{
+    border: 2px solid #C7DA66;
+    width: 138.78px;
+height: 0px;
+margin-top: 20px;
+
+}
+
+.folwlefriparas{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0.02em;
+text-align: left;
+max-width: 920px;
+width: 100%;
+color: #666666;
+}
+
+.wefolow_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sngle_folow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.sngle_folow p{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    text-align:center;
+color: #263238;    
+}
