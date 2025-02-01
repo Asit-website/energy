@@ -19,6 +19,7 @@ import OurClient from "../Components/Home/OurClient";
 function HomePage() {
   return (
     <div>
+
       <section className="hero_sectionwrap">
         <HomeNavbar />
 
@@ -159,6 +160,8 @@ function HomePage() {
       <Contact />
 
       <Footer />
+
+
     </div>
   );
 }

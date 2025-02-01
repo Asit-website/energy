@@ -58,3 +58,10 @@ color: #FFFFFF;
 .single_slide button:hover .MdArrowOutward{
     color: #101729;
  }
+
+
+ .flsjfljks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }

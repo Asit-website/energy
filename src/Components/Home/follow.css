@@ -30,6 +30,10 @@
      gap: 10px;
 }
 
+
+
+
+
 .folspara{
     font-family: Roboto;
 font-size: 28px;
@@ -92,3 +96,81 @@ color: #666666;
     text-align:center;
 color: #263238;    
 }
+
+@media (max-width:850px) {
+    .wefolow_top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .folow_left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .folspara{
+        line-height: 28px;
+    }
+    .linesfo{
+        margin-top: 2px;
+    }
+    .folwlefriparas{
+        text-align: center;
+    }
+}
+
+@media (max-width:1024px) {
+    .wefolow_bottom{
+        display: grid !important;
+        grid-template-columns: repeat(2 , 1fr) !important;
+    }
+    .folow_left{
+        max-width: 185px;
+        width: 100%;
+    }
+}
+
+@media (max-width:700px) {
+    .hms3secn{
+         display: flex;
+         flex-wrap: wrap;
+         gap: 30px ;
+         justify-content: center;
+         width: 100%;
+         margin-top: 20px;
+    }
+    .hms3sle{
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+}
+
+@media (max-width:550px) {
+        .wefolow_bottom{
+            display: grid !important;
+            grid-template-columns: repeat(1 , 1fr) !important;
+        }
+        .folwlefriparas{
+            font-size: 18px;
+            line-height: 28px;
+
+        }
+        .wefolow_top{
+            gap: 20px;
+        }
+        .weffolo_cont{
+            gap: 20px;
+        }
+
+        .sngle_folow{
+            gap: 4px;
+        }
+
+        .sngle_folow p{
+            font-size: 20px;
+            line-height: 30px;
+        }
+}
+

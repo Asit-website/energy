@@ -124,3 +124,30 @@ color: #666666;
     padding: 10px 15px;
   }
   
+
+  @media (max-width:550px) {
+    .cas_head{
+        align-items: center;
+    }
+    .cas_head h3{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .cs_iner{
+         margin: 0px 20px;
+         gap: 30px;
+    }
+    .casesutdywrap {
+     height: 550px;
+    }
+    .casesyudy p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .case_content.open{
+        padding: 0px ;
+    }
+    .casesyudy{
+        padding: 10px;
+    }
+  }

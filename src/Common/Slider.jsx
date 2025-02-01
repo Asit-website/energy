@@ -16,11 +16,29 @@ const Slider = () => {
         delay: 3000, 
         disableOnInteraction: false, 
       }}
+      breakpoints={{
+        250:{
+          slidesPerView:1 , 
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      }}
       pagination={{ clickable: true }} 
       modules={[Pagination, Autoplay]} 
     >
       {sliderData.map((data, index) => (
-        <SwiperSlide key={index}>
+        <SwiperSlide key={index} className="flsjfljks">
           <div className="single_slide">
             <img src={data.img} alt="Slide Image" />
             <p>{data.title}</p>

@@ -28,6 +28,8 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .footer_logo p{
   color: #FFFFFF;
@@ -167,4 +169,101 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+
+@media (max-width:1200px) {
+  .home_s3_cont{
+    padding: 0px 20px 40px 20px;
+  }
+  .hoemnavbarwap nav{
+    padding: 10px 20px;
+}
+.hoemnavbarwap nav img{
+    max-width: 110px;
+}
+  .hm_s4_cont{
+    padding: 30px 20px;
+  }
+  .testi_cont{
+    padding: 40px 20px;
+  }
+  .weffolo_cont{
+    padding: 20px 20px;
+}
+.newsupdate_cont{
+    padding: 30px 20px ;
+}
+.nameLine{
+  margin: 0px ;
+}
+.footer_double_main{
+  padding: 40px 20px;
+}
+
+.client_main{
+  padding: 40px 20px;
+}
+}
+
+@media (max-width:550px) {
+  .first_footer{
+    width: 100%;
+  }
+  .our_brand_flex img{
+    margin-top: 20px;
+  }
+  .footer_logo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .footer_logo p{
+    text-align: center;
+  }
+  .second_footer{
+    margin: 0 auto;
+  }
+  .second_footer p , .second_footer h3{
+    text-align: center;
+  }
+  .third_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .newlinespas{
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .side_flex{
+    justify-content: center;
+  }
+  .fourth_footer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fourth_footer p , .fourth_footer h3{
+    text-align: center;
+  }
+  .conactofmr button{
+    margin: 0 auto;
+  }
+  .flexconta{
+    flex-direction: column;
+  }
+  .actuaconpa{
+    text-align: center;
+    margin-top: 5px;
+  }
+  .fornpars , .hfdsfds{
+    text-align: center;
+  }
+  .fsfslines {
+   justify-content: center;
+  }
 }

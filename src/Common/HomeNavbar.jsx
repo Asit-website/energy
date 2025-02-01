@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./homenav.css"
 import logo from "../assets/homenavlogo.png"
 import { homenavbardata } from '../Data/home'
@@ -6,6 +6,9 @@ import hnav1 from "../assets/hnal1.png"
 import hnal2 from "../assets/hnal2.png"
 
 function HomeNavbar() {
+
+   const [showslidebar , setShowslide] = useState(true);
+
   return (
     <div className='hoemnavbarwap'>
 
@@ -30,8 +33,18 @@ function HomeNavbar() {
 
             </div>
 
+              <img src={hnal2} alt="" />
+
+
 
         </nav>
+
+  {
+    showslidebar && 
+    <div className="showsliderbar">
+
+    </div>
+  }
 
     </div>
   )

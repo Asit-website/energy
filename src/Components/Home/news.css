@@ -83,6 +83,20 @@ color: #666666;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
+}
+
+@media (max-width:1024px) {
+    .newsbotton{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px 20px;
+    }
+    .new_topss{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
 }
 
 .singlnews{
@@ -142,3 +156,27 @@ color: #000000;
 color: #666666;    
 }
 
+
+
+@media (max-width:550px) {
+    .hewhead{
+        text-align: center;
+    }
+    .recenews{
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .newlinespas{
+        justify-content: center;
+    }
+    .righnewhpas{
+        text-align: center;
+    }
+    .singlnews{
+        gap: 14px;
+    }
+    .newsupdate_cont{
+        gap: 20px;
+    }
+}

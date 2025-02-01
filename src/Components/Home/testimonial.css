@@ -10,7 +10,16 @@
       margin: 0 auto;
       display: flex;
       align-items: center;
+      gap: 30px;
       justify-content: space-between;
+}
+
+@media (max-width:1024px) {
+    .testi_cont{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
 }
 
 .testi_right{
@@ -109,4 +118,33 @@ color: #88AE5A;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 color: #666666;    
+}
+
+
+
+@media (max-width:550px) {
+    .testi_tag{
+        text-align: center !important;
+        line-height: 38px;
+    }
+    .head_test h4{
+        text-align: center;
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .head_test p{
+        justify-content: center;
+    }
+    .head_parastest{
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .testi_users{
+        justify-content: center;
+    }
+    .test_left{
+        gap: 18px;
+    }
+   
 }
